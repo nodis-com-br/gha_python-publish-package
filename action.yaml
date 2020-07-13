@@ -1,4 +1,4 @@
-name: 'python-build-package'
+name: 'python-publish-package'
 description: ''
 runs:
   using: 'docker'
