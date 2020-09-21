@@ -1,7 +1,7 @@
 FROM docker.io/nodisbr/python
 
 RUN apt-get update
-RUN apt-get -i install curl
+RUN apt-get -y install curl
 
 RUN pip install setuptools wheel twine
 
